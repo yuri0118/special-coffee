@@ -1,0 +1,401 @@
+@charset "utf-8";
+
+#head{
+    position: relative;
+    width: 100%;
+}
+
+#head header{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+#head h1{
+    padding: 10px 15px;
+    height: 85px;
+}
+
+#head .sh{
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    margin-left: -250px;
+    width: 500px;
+}
+
+#head .sh input[type="search"]{
+    width: 400px;
+
+}
+
+#head .sh input[type="image"]{
+    width: 20px;
+    height: 20px;
+}
+
+#head header .log{
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+
+#head header .log fieldset{
+    padding: 10px 15px;
+}
+
+#head header .log .box{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    display: none;
+   
+}
+
+#head header .log p{    /*--------오늘은여기까지--------------*/
+    padding: 2px -2px 3px 0;
+}
+
+
+
+#head header .log ul{
+    padding: 7px 0 ;
+    margin-right: -50px;
+}
+
+#head header .log ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#head header .log ul li.loginbtn{
+    float: left;
+    padding-top: 0;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#head header .log ul li.find{
+    float: left;
+    padding-top: 0;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+#head header .log ul li.join{
+    float: left;
+    padding-top: 0;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+/*--header 끝--*/
+/*------------------------------------------------------------------------------*/
+/*--nav 시작--*/
+
+#navi{
+    position: relative;
+    width: 100%;
+}
+
+#navi nav{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#navi nav ul{
+    position: relative;
+    width: 1000px;
+    overflow: hidden;
+}
+
+#navi nav ul li{
+    width: calc((100% - 200px) / 5);
+    float: left;
+    text-align: center;
+    margin: 0 20px ;
+    padding: 10px 0;
+}
+#navi nav ul li a{
+    color: #000;
+    padding: 12px 0;
+    display: block;
+    font-weight: bold;
+   /* background: brown;
+    border-radius: 10px;*/
+}
+
+/*--nav 끝--*/
+/*------------------------------------------------------------------------------*/
+
+#contents{
+    position: relative;
+    width: 100%;
+}
+
+#left_bar{
+    position:fixed;
+    top:190px;
+    right:52%;
+    margin-right: 530px;
+    width: 150px;
+    z-index: 1000;
+}
+
+#left_bar ul.left_barm{
+    width: 150px;
+    padding: 0 3% 0;
+}
+
+#left_bar p{
+    color:#000;
+    position:relative;
+    text-align: center;
+    padding-top: 20px;
+    width: 130px;
+    height: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+#left_bar ul.left_barm li{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-top: 12px;
+    padding-left: 5px; 
+    top: 15px;
+}
+
+#left_bar ul.left_barm li:hover{
+    background-color: #000;
+}
+
+#left_bar ul.left_barm li a{
+    font-weight: 400;
+    font: 11px "NGothic", Gulim;
+    display: block;
+    font-size: 10pt;
+}
+
+
+
+
+#custom{
+    position:relative;
+    width:1000px;
+    margin: 0 auto;
+}
+
+#custom .sho_hello{
+    position: relative;
+    padding-top: 30px;
+}
+
+#custom .sho_hello2{
+    position:relative;
+    padding: 0 0 10px;
+}
+
+
+#custom h1{
+    font-size: x-large;
+    position:relative;
+    bottom: -10px;
+    border-bottom: 2px solid #ccc;
+}
+
+
+#custom ul li{
+    position: relative;
+    padding-right:10px;
+    
+}
+
+#custom ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#custom ul li{
+    position: relative;
+    float: left;
+    right: -700px;
+    top: -20px;
+}
+
+#custom p{
+    font-size: small;
+    font-weight: bold;
+}
+
+#custom .search{
+    position:relative;
+    padding: 10px 0 6px;
+}
+
+#custom form{
+    background: #eee;
+}
+
+#custom form input[type="search"]{
+    width: 600px;
+}
+
+section{
+    position:relative;
+    width:1000px;
+    padding-bottom: 100px;
+    margin:0 auto;
+}
+
+section .sheet{
+    position:relative;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+section .sheet .gr_ay{
+    position:relative;
+    margin: 0 auto;
+    padding: 2px 0 2px 0;
+    background-color: rgba(129, 127, 124, 0.473);
+    letter-spacing: 10px;
+    
+}
+
+
+section .sheet .ti_tle{
+    position: relative;
+    padding-left: 15px;
+    margin: 0 auto;
+
+}
+
+#contents .question h1{
+    font-size: x-large;
+    position:relative;
+    padding: 40px 0 5px 0;
+    border-bottom: 2px solid #000;
+    text-align: left 10px;
+}
+
+
+.sheet table{
+    position:relative;
+    width: 1000px;
+    
+}
+
+.sheet td{
+    padding: 5px 0;
+}
+
+.question .sheet .ti_tle{
+    position:relative;
+    text-align: left;
+    width: 100%;
+    left:0;
+}
+
+
+.sheet table, .sheet td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+  
+}
+
+.sheet table, .sheet td:nth-child(1){
+    border-left: none;
+}
+
+.sheet table, .sheet td:nth-child(3){
+    border-right: none;
+}
+
+
+
+/*------------------------------------------------------------------------------*/
+/*--footer 시작--*/
+
+#foot{
+    position: relative;
+    width: 100%;
+    background: rgb(226, 224, 224);
+}
+#foot .txt_area{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
+    overflow: hidden;
+}
+#foot .txt_area > div{
+    float: left;
+}
+
+#foot .txt_area .t_left{
+    width: 300px;
+}
+
+#foot .txt_area .t_right{
+}
+
+#foot .txt_area .t_right .dep01{
+
+}
+
+#foot .txt_area .t_right .dep01 .dep02{
+    text-align: left;
+}
+
+#foot .txt_area .t_right .dep01 .dep02 > li{
+    display: inline-block;
+}
+
+#foot .txt_area .center{
+    left: 25%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+#foot .txt_area .t_tel{
+    font-weight: bold;
+    font-size: 24pt;
+    color: #000;
+    left: 25%;
+}
+
+#foot .txt_area .dep01{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#foot .txt_area .t_right .dep01 .dep02 li a{
+    color: #000;
+    line-height: 30px;
+}
+
+#foot .txt_area .t_right .qp{
+    margin-bottom: 5px;
+}
+
+#foot .txt_area .pq{
+    
+}
+    
+

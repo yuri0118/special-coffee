@@ -1,0 +1,407 @@
+@charset "utf-8";
+
+#head{
+    position: relative;
+    width: 100%;
+}
+
+#head header{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+#head h1{
+    padding: 10px 15px;
+    height: 85px;
+}
+
+#head .sh{
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    margin-left: -250px;
+    width: 500px;
+}
+
+#head .sh input[type="search"]{
+    width: 400px;
+
+}
+
+#head .sh input[type="image"]{
+    width: 20px;
+    height: 20px;
+}
+
+#head header .log{
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+
+#head header .log fieldset{
+    padding: 10px 15px;
+}
+
+#head header .log .box{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    display: none;
+}
+
+#head header .log p{    /*--------오늘은여기까지--------------*/
+    padding: 2px -2px 3px 0;
+}
+
+
+
+#head header .log ul{
+    padding: 7px 0 ;
+    margin-right: -50px;
+}
+
+#head header .log ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#head header .log ul li.loginbtn{
+    float: left;
+    padding-top: 0;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#head header .log ul li.find{
+    float: left;
+    padding-top: 0;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+#head header .log ul li.join{
+    float: left;
+    padding-top: 0;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+/*--header 끝--*/
+/*------------------------------------------------------------------------------*/
+/*--nav 시작--*/
+
+#navi{
+    position: relative;
+    width: 100%;
+}
+
+#navi nav{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#navi nav ul{
+    position: relative;
+    width: 1000px;
+    overflow: hidden;
+}
+
+#navi nav ul li{
+    width: calc((100% - 200px) / 5);
+    float: left;
+    text-align: center;
+    margin: 0 20px ;
+    padding: 10px 0;
+}
+#navi nav ul li a{
+    color: #000;
+    padding: 12px 0;
+    display: block;
+    font-weight: bold;
+   /* background: brown;
+    border-radius: 10px;*/
+}
+
+/*--nav 끝--*/
+/*------------------------------------------------------------------------------*/
+
+/*--div-pi 시작 유리  css*/
+
+
+#items .du01 span{
+    width:200px;
+    font: 25px "NGothic", Gulim;
+    font-weight: bold;
+    margin-left: 20%;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgb(233, 227, 227);
+}
+
+
+#pi {
+    width: 1200px;
+    height: 0 auto;
+    margin: 0 auto;
+}
+
+#pi ul{
+    position: relative;
+    border: 2px solid #000;
+    font: 12px "NGothic", Gulim;
+    margin: 20px 20px;
+    padding: 20px;
+    padding-left: 20px;
+    background-color: rgb(233, 227, 227);
+    height: 250px;
+}
+
+#pi ul li{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#pi .pickme{
+    text-align: right;
+    margin-left: 1010px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#pi .a01{
+    width:1000px;
+    margin-top: 50px;
+}
+
+#pi .coco01{
+    border: 1px solid #fff;
+}
+
+#pi .coco01 li span{
+    position: relative;
+    display: block;
+    line-height: 2em;
+    border: 2px solid #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-left:500px;
+    padding: 13px;
+}
+
+
+#pi .coco01 li img{
+    width: 400px;
+    height: 270px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+
+#pi .pickme02{
+    text-align: right;
+    margin-left: 1010px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#pi .a02{
+    width:1000px;
+    margin-top: 50px;
+}
+
+#pi .coco02{
+    border: 1px solid #fff;
+}
+
+#pi .coco02 li span{
+    position: relative;
+    display: block;
+    line-height: 2em;
+    border: 2px solid #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-left:500px;
+    padding: 13px;
+}
+
+#pi .coco02 li img{
+    width: 400px;
+    height: 270px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#pi .pickme03{
+    text-align: right;
+    margin-left: 1010px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#pi .a03{
+    width:1000px;
+    margin-top: 50px;
+}
+
+#pi .coco03{
+    border: 1px solid #fff;
+}
+
+#pi .coco03 li span{
+    position: relative;
+    display: block;
+    line-height: 2em;
+    border: 2px solid #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-left:500px;
+    padding: 13px;
+}
+
+
+#pi .coco03 li img{
+    width: 400px;
+    height: 270px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#pi .pickme04{
+    text-align: right;
+    margin-left: 1010px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#pi .a04{
+    width:1000px;
+    margin-top: 50px;
+}
+
+#pi .coco04{
+    border: 1px solid #fff;
+}
+
+#pi .coco04 li span{
+    position: relative;
+    display: block;
+    line-height: 2em;
+    border: 2px solid #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-left:500px;
+    padding: 13px;
+}
+
+
+#pi .coco04 li img{
+    width: 400px;
+    height: 270px;
+    margin-top: 10px;
+    margin-left: 40px;
+    
+}
+
+#a05 .b01{
+    margin-left: 48%;
+    margin-bottom: 10px;
+}
+#a05 .b01 li{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgb(247, 238, 238);
+    border: 1px solid black;
+    font: 15px "NGothic", Gulim;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 10px 10px 10px 10px;
+}
+
+
+/*------------------------------------------------------------------------------*/
+/*--footer 시작--*/
+
+#foot{
+    position: relative;
+    width: 100%;
+    background: rgb(226, 224, 224);
+}
+#foot .txt_area{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
+    overflow: hidden;
+}
+#foot .txt_area > div{
+    float: left;
+}
+
+#foot .txt_area .t_left{
+    width: 300px;
+}
+
+#foot .txt_area .t_right{
+}
+
+#foot .txt_area .t_right .dep01{
+
+}
+
+#foot .txt_area .t_right .dep01 .dep02{
+    text-align: left;
+}
+
+#foot .txt_area .t_right .dep01 .dep02 > li{
+    display: inline-block;
+}
+
+#foot .txt_area .center{
+    left: 25%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+#foot .txt_area .t_tel{
+    font-weight: bold;
+    font-size: 24pt;
+    color: #000;
+    left: 25%;
+}
+
+#foot .txt_area .dep01{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#foot .txt_area .t_right .dep01 .dep02 li a{
+    color: #000;
+    line-height: 30px;
+}
+
+#foot .txt_area .t_right .qp{
+    margin-bottom: 5px;
+}
+
+#foot .txt_area .pq{
+    
+}
+    
+

@@ -1,0 +1,344 @@
+@charset "utf-8";
+
+#head{
+    position: relative;
+    width: 100%;
+}
+
+#head header{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+#head h1{
+    padding: 10px 15px;
+    height: 85px;
+}
+
+#head .sh{
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    margin-left: -250px;
+    width: 500px;
+}
+
+#head .sh input[type="search"]{
+    width: 400px;
+
+}
+
+#head .sh input[type="image"]{
+    width: 20px;
+    height: 20px;
+}
+
+#head header .log{
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+
+#head header .log fieldset{
+    padding: 10px 15px;
+}
+
+#head header .log .box{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    display: none;
+}
+
+#head header .log p{    /*--------오늘은여기까지--------------*/
+    padding: 2px -2px 3px 0;
+}
+
+
+
+#head header .log ul{
+    padding: 7px 0 ;
+    margin-right: -50px;
+}
+
+#head header .log ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#head header .log ul li.loginbtn{
+    float: left;
+    padding-top: 0;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#head header .log ul li.find{
+    float: left;
+    padding-top: 0;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+#head header .log ul li.join{
+    float: left;
+    padding-top: 0;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+/*--header 끝--*/
+/*------------------------------------------------------------------------------*/
+/*--nav 시작--*/
+
+#navi{
+    position: relative;
+    width: 100%;
+}
+
+#navi nav{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#navi nav ul{
+    position: relative;
+    width: 1000px;
+    overflow: hidden;
+}
+
+#navi nav ul li{
+    width: calc((100% - 200px) / 5);
+    float: left;
+    text-align: center;
+    margin: 0 20px ;
+    padding: 10px 0;
+}
+#navi nav ul li a{
+    color: #000;
+    padding: 12px 0;
+    display: block;
+    font-weight: bold;
+   /* background: brown;
+    border-radius: 10px;*/
+}
+
+/*--nav 끝--*/
+/*------------------------------------------------------------------------------*/
+/*--intro 시작--*/
+
+#intro{
+    position: relative;
+    width: 100%;
+}
+
+#intro #slid_area{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#intro #slid_area ul{
+    width: 400%;
+    height: 100%;
+}
+
+#intro #slid_area ul li{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+#intro #slid_area ul li img{
+    width: 100%;
+}
+
+
+#intro .slid_btn{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+}
+
+#intro .slid_btn::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#intro .slid_btn #slide_list{
+    float: right;
+}
+
+#intro .slid_btn #slide_list li{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid #000;
+}
+
+#intro .slid_btn #slide_list li:last-child(3){
+    background-color: crimson;
+}
+
+#arrow a{
+    position: relative;
+    margin: 0 auto;
+    left: 50%;
+    top: -30px;
+}
+
+
+
+/*--intro 끝--*/
+/*------------------------------------------------------------------------------*/
+/*--guide 시작--*/
+
+#guide{
+    position: relative;
+    width: 100%;
+    top: 35px;
+}
+
+#guide ul{
+    width: 1000px;
+    top: 35px;
+    margin: 0 auto;
+}
+
+#guide ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#guide ul li{
+    width: 200px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+
+#guide ul li p .sp1{
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}
+
+#guide ul li p .sp2{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}
+
+/*--guide 끝--*/
+/*------------------------------------------------------------------------------*/
+/*--pick 시작--*/
+
+#pick{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#pick .pi{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#pick .pi li strong{
+    position: relative;
+    color: gold;
+    font-size: 20pt;
+    font-weight: bold;
+    left: 450px;
+    top: -200px;
+}
+
+/*--pick 끝--*/
+/*------------------------------------------------------------------------------*/
+/*--footer 시작--*/
+
+#foot{
+    position: relative;
+    width: 100%;
+    background: rgb(226, 224, 224);
+}
+#foot .txt_area{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
+    overflow: hidden;
+}
+#foot .txt_area > div{
+    float: left;
+}
+
+#foot .txt_area .t_left{
+    width: 300px;
+}
+
+#foot .txt_area .t_right{
+}
+
+#foot .txt_area .t_right .dep01{
+
+}
+
+#foot .txt_area .t_right .dep01 .dep02{
+    text-align: left;
+}
+
+#foot .txt_area .t_right .dep01 .dep02 > li{
+    display: inline-block;
+}
+
+#foot .txt_area .center{
+    left: 25%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+#foot .txt_area .t_tel{
+    font-weight: bold;
+    font-size: 24pt;
+    color: #000;
+    left: 25%;
+}
+
+#foot .txt_area .dep01{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#foot .txt_area .t_right .dep01 .dep02 li a{
+    color: #000;
+    line-height: 30px;
+}
+
+#foot .txt_area .t_right .qp{
+    margin-bottom: 5px;
+}
+
+#foot .txt_area .pq{
+    
+}
+    
+
